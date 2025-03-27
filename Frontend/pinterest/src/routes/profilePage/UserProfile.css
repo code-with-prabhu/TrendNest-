@@ -1,0 +1,70 @@
+.userProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.userImage{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.username{
+    font-weight: 300;
+    color: gray;
+}
+.userData{
+    font-weight: 500;
+}
+.ProfileEvents{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.buttons button{
+    border: none;
+    padding: 16px;
+    border-radius: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.buttons button:last-child{
+    background-color: #e50829;
+    color: white;
+}
+
+.buttons button:last-child:hover{
+    background-color: #c1011e;
+}
+.options{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.options span{
+    cursor: pointer;
+    padding: 8px 0px;   
+}
+
+.options span:hover{
+    color: gray;
+}
+.active{
+    border-bottom: 2px solid black;
+}
